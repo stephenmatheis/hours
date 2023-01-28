@@ -1,0 +1,24 @@
+$border-radius: 12px;
+
+.projects {
+    width: 100%;
+    background-color: #fff;
+    padding: 30px;
+    border: 1px solid var(--color);
+    border-radius: $border-radius;
+    box-shadow: 12px 12px 0px 0px var(--color);
+
+    .toolbar {
+        display: flex;
+        justify-content: flex-end;
+
+        .btn {
+            cursor: pointer;
+            border-radius: $border-radius;
+            border-color: var(--color);
+            background-color: var(--color);
+            color: var(--background-color);
+            padding: 6px 12px;
+        }
+    }
+}
